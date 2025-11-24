@@ -35,9 +35,6 @@ pip install -r requirements.txt
   1. Τοποθετήστε το αρχείο του οδηγού σπουδών στον ίδιο φάκελο με το όνομα odigos.pdf.
   2. Ανοίξτε το αρχείο agent.py και προσθέστε το Google API Key σας στη μεταβλητή GOOGLE_API_KEY.
 
-Προσοχή: Μην ανεβάσετε το API Key σας δημόσια στο GitHub! Αν κάνετε το repo δημόσιο, χρησιμοποιήστε st.secrets ή environment variables.
-google-generativeai
-
 ### 4. Εκκίνηση
 
 Τρέξτε την εφαρμογή με την εντολή:
