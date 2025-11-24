@@ -7,7 +7,7 @@ import time
 # ⚠️ ΒΑΛΕ ΤΟ ΚΛΕΙΔΙ ΣΟΥ ΕΔΩ
 GOOGLE_API_KEY = "AIzaSy...ΤΟ_ΚΛΕΙΔΙ_ΣΟΥ_ΕΔΩ...XYZ"
 
-# Επιλέγουμε το πολύ γρήγορο μοντέλο από τη λίστα σου
+# Επιλέγουμε το πολύ ισχυρό μοντέλο
 MODEL_NAME = "models/gemini-2.5-pro"
 
 st.set_page_config(page_title="Study Guide AI Agent", page_icon="🏛️")
@@ -107,4 +107,5 @@ if prompt := st.chat_input("Ρώτησε κάτι για τη σχολή..."):
                 if "429" in error_msg:
                     st.warning("⏳ Πιάσαμε το όριο της Google. Περίμενε λίγο και ξαναδοκίμασε.")
                 else:
+
                     st.error(f"Σφάλμα: {e}")
