@@ -27,11 +27,10 @@
 ### 2. Εγκατάσταση Βιβλιοθηκών
 Ανοίξτε το τερματικό (PowerShell/CMD) και τρέξτε:
 
-```bash
-
+```
 pip install -r requirements.txt
-
-3. ⚙️ Ρύθμιση
+```
+### 3. ⚙️ Ρύθμιση
 
   1. Τοποθετήστε το αρχείο του οδηγού σπουδών στον ίδιο φάκελο με το όνομα odigos.pdf.
   2. Ανοίξτε το αρχείο agent.py και προσθέστε το Google API Key σας στη μεταβλητή GOOGLE_API_KEY.
@@ -39,16 +38,18 @@ pip install -r requirements.txt
 Προσοχή: Μην ανεβάσετε το API Key σας δημόσια στο GitHub! Αν κάνετε το repo δημόσιο, χρησιμοποιήστε st.secrets ή environment variables.
 google-generativeai
 
-4. Εκκίνηση
+### 4. Εκκίνηση
 
 Τρέξτε την εφαρμογή με την εντολή:
-  streamlit run agent.py
+```
+streamlit run agent.py
+```
 
-📁 Δομή Αρχείων:
+## 📁 Δομή Αρχείων:
 
 *  agent.py: Ο κύριος κώδικας της εφαρμογής (Streamlit + Gemini Logic).
 *  odigos.pdf: Το αρχείο PDF που περιέχει τις πληροφορίες του τμήματος.
 *  requirements.txt: Η λίστα με τις απαραίτητες βιβλιοθήκες Python.
 
-🛡️ License
+## 🛡️ License
 This project is open-source and available under the MIT License.
